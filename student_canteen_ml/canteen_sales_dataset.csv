@@ -1,0 +1,761 @@
+date,day_of_week,dish_id,dish_name,category,base_cost,selling_price,demand,revenue,profit,is_weekend,is_session,is_holiday,temperature
+2025-10-25,5,1,Borshch,Hot,55,70.04,3,210.12,45.12000000000002,True,False,False,-7
+2025-10-25,5,2,Pure with cutlet,Hot,70,99.55,11,1095.05,325.04999999999995,True,False,False,19
+2025-10-25,5,3,Grechka with chicken,Hot,65,86.23,10,862.3000000000001,212.30000000000004,True,False,False,-14
+2025-10-25,5,4,Salad Olivye,Salad,45,57.14,4,228.56,48.56,True,False,False,23
+2025-10-25,5,5,Pizza slice,Bakery,80,100.77,7,705.39,145.39,True,False,False,26
+2025-10-25,5,6,Coffee americano,Drink,40,50.65,18,911.7,191.7,True,False,False,22
+2025-10-25,5,7,Tea,Drink,20,28.55,5,142.75,42.75,True,False,False,-5
+2025-10-25,5,8,Bun with poppy,Bakery,30,38.5,14,539.0,119.0,True,False,False,-2
+2025-10-26,6,1,Borshch,Hot,55,67.53,8,540.24,100.24,True,False,False,-9
+2025-10-26,6,2,Pure with cutlet,Hot,70,96.68,12,1160.16,320.1600000000001,True,False,False,-13
+2025-10-26,6,3,Grechka with chicken,Hot,65,80.43,18,1447.7400000000002,277.7400000000001,True,False,False,9
+2025-10-26,6,4,Salad Olivye,Salad,45,57.96,9,521.64,116.64,True,False,False,25
+2025-10-26,6,5,Pizza slice,Bakery,80,109.86,19,2087.34,567.34,True,False,False,30
+2025-10-26,6,6,Coffee americano,Drink,40,55.94,1,55.94,15.939999999999998,True,False,False,3
+2025-10-26,6,7,Tea,Drink,20,29.2,4,116.8,36.8,True,False,False,9
+2025-10-26,6,8,Bun with poppy,Bakery,30,41.72,12,500.64,140.64,True,False,False,8
+2025-10-27,0,1,Borshch,Hot,55,108.3,30,3249.0,1599.0,False,False,False,29
+2025-10-27,0,2,Pure with cutlet,Hot,70,136.11,18,2449.9800000000005,1189.9800000000002,False,False,False,19
+2025-10-27,0,3,Grechka with chicken,Hot,65,118.53,22,2607.66,1177.66,False,False,False,2
+2025-10-27,0,4,Salad Olivye,Salad,45,74.42,53,3944.26,1559.26,False,False,False,5
+2025-10-27,0,5,Pizza slice,Bakery,80,166.02,11,1826.22,946.22,False,False,False,5
+2025-10-27,0,6,Coffee americano,Drink,40,61.85,34,2102.9,742.9000000000001,False,False,False,21
+2025-10-27,0,7,Tea,Drink,20,39.18,28,1097.04,537.04,False,False,False,10
+2025-10-27,0,8,Bun with poppy,Bakery,30,50.56,36,1820.16,740.1600000000001,False,False,False,0
+2025-10-28,1,1,Borshch,Hot,55,111.26,43,4784.18,2419.1800000000003,False,False,False,12
+2025-10-28,1,2,Pure with cutlet,Hot,70,122.74,48,5891.52,2531.5199999999995,False,False,False,-7
+2025-10-28,1,3,Grechka with chicken,Hot,65,101.64,44,4472.16,1612.16,False,False,False,-12
+2025-10-28,1,4,Salad Olivye,Salad,45,87.26,14,1221.64,591.6400000000001,False,False,False,28
+2025-10-28,1,5,Pizza slice,Bakery,80,123.56,41,5065.96,1785.96,False,False,False,9
+2025-10-28,1,6,Coffee americano,Drink,40,74.82,50,3741.0,1740.9999999999995,False,False,False,20
+2025-10-28,1,7,Tea,Drink,20,40.09,15,601.35,301.35,False,False,False,28
+2025-10-28,1,8,Bun with poppy,Bakery,30,61.14,43,2629.02,1339.02,False,False,False,6
+2025-10-29,2,1,Borshch,Hot,55,99.97,34,3398.98,1528.98,False,False,False,1
+2025-10-29,2,2,Pure with cutlet,Hot,70,129.88,39,5065.32,2335.32,False,False,False,-9
+2025-10-29,2,3,Grechka with chicken,Hot,65,135.8,49,6654.200000000001,3469.2000000000007,False,False,False,17
+2025-10-29,2,4,Salad Olivye,Salad,45,72.31,46,3326.26,1256.2600000000002,False,False,False,-5
+2025-10-29,2,5,Pizza slice,Bakery,80,171.44,47,8057.68,4297.68,False,False,False,23
+2025-10-29,2,6,Coffee americano,Drink,40,60.55,32,1937.6,657.5999999999999,False,False,False,8
+2025-10-29,2,7,Tea,Drink,20,30.81,27,831.87,291.86999999999995,False,False,False,21
+2025-10-29,2,8,Bun with poppy,Bakery,30,60.37,11,664.0699999999999,334.07,False,False,False,-11
+2025-10-30,3,1,Borshch,Hot,55,87.44,41,3585.04,1330.04,False,False,False,15
+2025-10-30,3,2,Pure with cutlet,Hot,70,117.99,42,4955.58,2015.58,False,False,False,23
+2025-10-30,3,3,Grechka with chicken,Hot,65,139.77,35,4891.950000000001,2616.9500000000003,False,False,False,29
+2025-10-30,3,4,Salad Olivye,Salad,45,80.07,21,1681.4699999999998,736.4699999999998,False,False,False,27
+2025-10-30,3,5,Pizza slice,Bakery,80,170.38,35,5963.3,3163.3,False,False,False,13
+2025-10-30,3,6,Coffee americano,Drink,40,66.29,15,994.35,394.3500000000001,False,False,False,6
+2025-10-30,3,7,Tea,Drink,20,37.75,15,566.25,266.25,False,False,False,22
+2025-10-30,3,8,Bun with poppy,Bakery,30,46.49,19,883.3100000000001,313.31000000000006,False,False,False,25
+2025-10-31,4,1,Borshch,Hot,55,115.6,9,1040.4,545.4,False,False,False,-11
+2025-10-31,4,2,Pure with cutlet,Hot,70,118.65,40,4746.0,1946.0,False,False,False,16
+2025-10-31,4,3,Grechka with chicken,Hot,65,103.52,26,2691.52,1001.52,False,False,False,21
+2025-10-31,4,4,Salad Olivye,Salad,45,75.15,48,3607.2,1447.2000000000005,False,False,False,15
+2025-10-31,4,5,Pizza slice,Bakery,80,125.28,34,4259.52,1539.52,False,False,False,27
+2025-10-31,4,6,Coffee americano,Drink,40,71.86,37,2658.82,1178.82,False,False,False,14
+2025-10-31,4,7,Tea,Drink,20,39.15,18,704.6999999999999,344.7,False,False,False,26
+2025-10-31,4,8,Bun with poppy,Bakery,30,53.46,11,588.0600000000001,258.06,False,False,False,6
+2025-11-01,5,1,Borshch,Hot,55,69.16,4,276.64,56.63999999999999,True,False,False,19
+2025-11-01,5,2,Pure with cutlet,Hot,70,92.86,12,1114.32,274.32,True,False,False,2
+2025-11-01,5,3,Grechka with chicken,Hot,65,95.05,13,1235.65,390.65,True,False,False,-11
+2025-11-01,5,4,Salad Olivye,Salad,45,55.32,18,995.76,185.76,True,False,False,26
+2025-11-01,5,5,Pizza slice,Bakery,80,119.26,12,1431.12,471.12000000000006,True,False,False,0
+2025-11-01,5,6,Coffee americano,Drink,40,53.83,9,484.47,124.46999999999998,True,False,False,-2
+2025-11-01,5,7,Tea,Drink,20,24.99,9,224.91,44.90999999999998,True,False,False,-15
+2025-11-01,5,8,Bun with poppy,Bakery,30,44.34,12,532.08,172.08000000000004,True,False,False,14
+2025-11-02,6,1,Borshch,Hot,55,77.85,23,1790.55,525.5499999999998,True,False,False,-6
+2025-11-02,6,2,Pure with cutlet,Hot,70,88.57,7,619.99,129.98999999999995,True,False,False,-12
+2025-11-02,6,3,Grechka with chicken,Hot,65,79.19,21,1662.99,297.98999999999995,True,False,False,5
+2025-11-02,6,4,Salad Olivye,Salad,45,61.89,1,61.89,16.89,True,False,False,17
+2025-11-02,6,5,Pizza slice,Bakery,80,97.37,14,1363.18,243.1800000000001,True,False,False,17
+2025-11-02,6,6,Coffee americano,Drink,40,48.82,3,146.46,26.46,True,False,False,-11
+2025-11-02,6,7,Tea,Drink,20,24.72,11,271.92,51.91999999999999,True,False,False,21
+2025-11-02,6,8,Bun with poppy,Bakery,30,41.35,14,578.9,158.90000000000003,True,False,False,24
+2025-11-03,0,1,Borshch,Hot,55,102.63,51,5234.13,2429.13,False,False,False,1
+2025-11-03,0,2,Pure with cutlet,Hot,70,140.09,28,3922.52,1962.52,False,False,False,0
+2025-11-03,0,3,Grechka with chicken,Hot,65,103.45,27,2793.15,1038.15,False,False,False,26
+2025-11-03,0,4,Salad Olivye,Salad,45,77.46,31,2401.26,1006.2599999999998,False,False,False,-11
+2025-11-03,0,5,Pizza slice,Bakery,80,154.78,12,1857.36,897.36,False,False,False,21
+2025-11-03,0,6,Coffee americano,Drink,40,75.05,12,900.5999999999999,420.6,False,False,False,17
+2025-11-03,0,7,Tea,Drink,20,43.07,23,990.61,530.61,False,False,False,-11
+2025-11-03,0,8,Bun with poppy,Bakery,30,50.98,25,1274.5,524.4999999999999,False,False,False,13
+2025-11-04,1,1,Borshch,Hot,55,120.38,33,3972.54,2157.54,False,False,False,26
+2025-11-04,1,2,Pure with cutlet,Hot,70,137.73,38,5233.74,2573.74,False,False,False,20
+2025-11-04,1,3,Grechka with chicken,Hot,65,102.21,34,3475.14,1265.14,False,False,False,-7
+2025-11-04,1,4,Salad Olivye,Salad,45,95.53,22,2101.66,1111.66,False,False,False,20
+2025-11-04,1,5,Pizza slice,Bakery,80,135.78,18,2444.04,1004.04,False,False,False,-2
+2025-11-04,1,6,Coffee americano,Drink,40,79.25,29,2298.25,1138.25,False,False,False,1
+2025-11-04,1,7,Tea,Drink,20,33.52,44,1474.88,594.8800000000001,False,False,False,-12
+2025-11-04,1,8,Bun with poppy,Bakery,30,53.9,20,1078.0,478.0,False,False,False,2
+2025-11-05,2,1,Borshch,Hot,55,76.51,6,459.06000000000006,129.06000000000003,False,False,True,1
+2025-11-05,2,2,Pure with cutlet,Hot,70,95.59,8,764.72,204.72000000000003,False,False,True,12
+2025-11-05,2,3,Grechka with chicken,Hot,65,80.18,8,641.44,121.44000000000004,False,False,True,29
+2025-11-05,2,4,Salad Olivye,Salad,45,54.49,8,435.92,75.92000000000002,False,False,True,8
+2025-11-05,2,5,Pizza slice,Bakery,80,99.55,17,1692.35,332.35,False,False,True,-7
+2025-11-05,2,6,Coffee americano,Drink,40,52.38,2,104.76,24.760000000000005,False,False,True,-13
+2025-11-05,2,7,Tea,Drink,20,28.09,7,196.63,56.63,False,False,True,27
+2025-11-05,2,8,Bun with poppy,Bakery,30,43.02,4,172.08,52.08000000000001,False,False,True,11
+2025-11-06,3,1,Borshch,Hot,55,115.79,17,1968.43,1033.43,False,False,False,-4
+2025-11-06,3,2,Pure with cutlet,Hot,70,113.79,31,3527.49,1357.4900000000002,False,False,False,6
+2025-11-06,3,3,Grechka with chicken,Hot,65,136.81,41,5609.21,2944.21,False,False,False,0
+2025-11-06,3,4,Salad Olivye,Salad,45,92.3,24,2215.2,1135.1999999999998,False,False,False,-9
+2025-11-06,3,5,Pizza slice,Bakery,80,168.08,29,4874.320000000001,2554.32,False,False,False,-1
+2025-11-06,3,6,Coffee americano,Drink,40,69.79,24,1674.96,714.9600000000002,False,False,False,-1
+2025-11-06,3,7,Tea,Drink,20,39.24,19,745.5600000000001,365.56000000000006,False,False,False,10
+2025-11-06,3,8,Bun with poppy,Bakery,30,63.15,30,1894.5,994.5,False,False,False,2
+2025-11-07,4,1,Borshch,Hot,55,108.66,43,4672.38,2307.38,False,False,False,19
+2025-11-07,4,2,Pure with cutlet,Hot,70,110.65,26,2876.9,1056.9,False,False,False,1
+2025-11-07,4,3,Grechka with chicken,Hot,65,141.3,25,3532.5000000000005,1907.5,False,False,False,1
+2025-11-07,4,4,Salad Olivye,Salad,45,86.29,8,690.32,330.32000000000005,False,False,False,7
+2025-11-07,4,5,Pizza slice,Bakery,80,153.95,31,4772.45,2292.45,False,False,False,17
+2025-11-07,4,6,Coffee americano,Drink,40,85.19,18,1533.42,813.42,False,False,False,-3
+2025-11-07,4,7,Tea,Drink,20,39.92,21,838.32,418.3200000000001,False,False,False,-15
+2025-11-07,4,8,Bun with poppy,Bakery,30,59.42,46,2733.32,1353.3200000000002,False,False,False,27
+2025-11-08,5,1,Borshch,Hot,55,81.66,10,816.5999999999999,266.6,True,False,False,6
+2025-11-08,5,2,Pure with cutlet,Hot,70,97.93,19,1860.67,530.6700000000001,True,False,False,-8
+2025-11-08,5,3,Grechka with chicken,Hot,65,84.03,14,1176.42,266.42,True,False,False,11
+2025-11-08,5,4,Salad Olivye,Salad,45,63.41,13,824.3299999999999,239.33,True,False,False,20
+2025-11-08,5,5,Pizza slice,Bakery,80,106.09,5,530.45,130.45000000000002,True,False,False,9
+2025-11-08,5,6,Coffee americano,Drink,40,54.83,12,657.96,177.95999999999998,True,False,False,10
+2025-11-08,5,7,Tea,Drink,20,25.82,13,335.66,75.66,True,False,False,-2
+2025-11-08,5,8,Bun with poppy,Bakery,30,41.46,18,746.28,206.28000000000003,True,False,False,5
+2025-11-09,6,1,Borshch,Hot,55,69.53,20,1390.6,290.6,True,False,False,15
+2025-11-09,6,2,Pure with cutlet,Hot,70,85.78,13,1115.14,205.14,True,False,False,17
+2025-11-09,6,3,Grechka with chicken,Hot,65,84.54,24,2028.96,468.96000000000015,True,False,False,0
+2025-11-09,6,4,Salad Olivye,Salad,45,64.89,9,584.01,179.01,True,False,False,-6
+2025-11-09,6,5,Pizza slice,Bakery,80,101.88,1,101.88,21.879999999999995,True,False,False,15
+2025-11-09,6,6,Coffee americano,Drink,40,53.46,15,801.9,201.9,True,False,False,25
+2025-11-09,6,7,Tea,Drink,20,28.31,16,452.96,132.95999999999998,True,False,False,9
+2025-11-09,6,8,Bun with poppy,Bakery,30,38.2,17,649.4000000000001,139.40000000000003,True,False,False,26
+2025-11-10,0,1,Borshch,Hot,55,90.93,17,1545.8100000000002,610.8100000000002,False,False,False,29
+2025-11-10,0,2,Pure with cutlet,Hot,70,107.46,45,4835.7,1685.6999999999998,False,False,False,0
+2025-11-10,0,3,Grechka with chicken,Hot,65,103.57,19,1967.83,732.8299999999999,False,False,False,14
+2025-11-10,0,4,Salad Olivye,Salad,45,86.26,46,3967.96,1897.9600000000005,False,False,False,13
+2025-11-10,0,5,Pizza slice,Bakery,80,143.9,52,7482.8,3322.8,False,False,False,20
+2025-11-10,0,6,Coffee americano,Drink,40,80.82,35,2828.7,1428.6999999999998,False,False,False,15
+2025-11-10,0,7,Tea,Drink,20,40.52,37,1499.24,759.2400000000001,False,False,False,25
+2025-11-10,0,8,Bun with poppy,Bakery,30,55.18,30,1655.4,755.4,False,False,False,0
+2025-11-11,1,1,Borshch,Hot,55,91.53,13,1189.89,474.89,False,False,False,6
+2025-11-11,1,2,Pure with cutlet,Hot,70,108.95,33,3595.35,1285.35,False,False,False,-6
+2025-11-11,1,3,Grechka with chicken,Hot,65,129.07,25,3226.75,1601.7499999999998,False,False,False,30
+2025-11-11,1,4,Salad Olivye,Salad,45,80.57,19,1530.83,675.8299999999999,False,False,False,6
+2025-11-11,1,5,Pizza slice,Bakery,80,143.28,46,6590.88,2910.88,False,False,False,-2
+2025-11-11,1,6,Coffee americano,Drink,40,85.34,37,3157.58,1677.5800000000002,False,False,False,22
+2025-11-11,1,7,Tea,Drink,20,35.33,15,529.9499999999999,229.95,False,False,False,-15
+2025-11-11,1,8,Bun with poppy,Bakery,30,60.82,31,1885.42,955.42,False,False,False,11
+2025-11-12,2,1,Borshch,Hot,55,117.07,48,5619.36,2979.36,False,False,False,16
+2025-11-12,2,2,Pure with cutlet,Hot,70,126.36,23,2906.28,1296.28,False,False,False,-14
+2025-11-12,2,3,Grechka with chicken,Hot,65,127.93,34,4349.62,2139.6200000000003,False,False,False,10
+2025-11-12,2,4,Salad Olivye,Salad,45,96.47,22,2122.34,1132.34,False,False,False,24
+2025-11-12,2,5,Pizza slice,Bakery,80,170.79,39,6660.81,3540.8099999999995,False,False,False,22
+2025-11-12,2,6,Coffee americano,Drink,40,60.76,51,3098.76,1058.76,False,False,False,26
+2025-11-12,2,7,Tea,Drink,20,42.14,34,1432.76,752.76,False,False,False,-4
+2025-11-12,2,8,Bun with poppy,Bakery,30,52.96,12,635.52,275.52,False,False,False,-2
+2025-11-13,3,1,Borshch,Hot,55,93.21,32,2982.72,1222.7199999999998,False,False,False,11
+2025-11-13,3,2,Pure with cutlet,Hot,70,128.05,22,2817.1000000000004,1277.1000000000004,False,False,False,19
+2025-11-13,3,3,Grechka with chicken,Hot,65,107.7,13,1400.1,555.1,False,False,False,-11
+2025-11-13,3,4,Salad Olivye,Salad,45,97.41,7,681.87,366.87,False,False,False,-3
+2025-11-13,3,5,Pizza slice,Bakery,80,128.53,15,1927.95,727.95,False,False,False,-7
+2025-11-13,3,6,Coffee americano,Drink,40,63.2,45,2844.0,1044.0000000000002,False,False,False,-2
+2025-11-13,3,7,Tea,Drink,20,40.74,38,1548.12,788.1200000000001,False,False,False,-5
+2025-11-13,3,8,Bun with poppy,Bakery,30,65.24,52,3392.48,1832.48,False,False,False,30
+2025-11-14,4,1,Borshch,Hot,55,86.66,19,1646.54,601.54,False,False,False,-14
+2025-11-14,4,2,Pure with cutlet,Hot,70,138.19,33,4560.27,2250.27,False,False,False,9
+2025-11-14,4,3,Grechka with chicken,Hot,65,100.96,33,3331.68,1186.6799999999998,False,False,False,29
+2025-11-14,4,4,Salad Olivye,Salad,45,70.71,48,3394.08,1234.0799999999997,False,False,False,4
+2025-11-14,4,5,Pizza slice,Bakery,80,164.59,44,7241.96,3721.96,False,False,False,21
+2025-11-14,4,6,Coffee americano,Drink,40,74.92,12,899.04,419.04,False,False,False,27
+2025-11-14,4,7,Tea,Drink,20,37.08,29,1075.32,495.32,False,False,False,6
+2025-11-14,4,8,Bun with poppy,Bakery,30,62.27,11,684.97,354.97,False,False,False,-9
+2025-11-15,5,1,Borshch,Hot,55,80.71,18,1452.78,462.7799999999999,True,False,False,14
+2025-11-15,5,2,Pure with cutlet,Hot,70,87.7,8,701.6,141.60000000000002,True,False,False,18
+2025-11-15,5,3,Grechka with chicken,Hot,65,93.76,14,1312.64,402.6400000000001,True,False,False,19
+2025-11-15,5,4,Salad Olivye,Salad,45,59.88,18,1077.84,267.84000000000003,True,False,False,22
+2025-11-15,5,5,Pizza slice,Bakery,80,116.44,10,1164.4,364.4,True,False,False,-10
+2025-11-15,5,6,Coffee americano,Drink,40,50.93,12,611.16,131.16,True,False,False,14
+2025-11-15,5,7,Tea,Drink,20,28.01,22,616.22,176.22000000000003,True,False,False,6
+2025-11-15,5,8,Bun with poppy,Bakery,30,43.66,6,261.96,81.95999999999998,True,False,False,-4
+2025-11-16,6,1,Borshch,Hot,55,71.62,11,787.82,182.82000000000005,True,False,False,23
+2025-11-16,6,2,Pure with cutlet,Hot,70,84.21,13,1094.73,184.7299999999999,True,False,False,-3
+2025-11-16,6,3,Grechka with chicken,Hot,65,92.04,4,368.16,108.16000000000004,True,False,False,16
+2025-11-16,6,4,Salad Olivye,Salad,45,63.32,16,1013.12,293.12,True,False,False,26
+2025-11-16,6,5,Pizza slice,Bakery,80,115.03,18,2070.54,630.54,True,False,False,-10
+2025-11-16,6,6,Coffee americano,Drink,40,52.85,9,475.65,115.65,True,False,False,0
+2025-11-16,6,7,Tea,Drink,20,27.49,16,439.84,119.83999999999996,True,False,False,15
+2025-11-16,6,8,Bun with poppy,Bakery,30,39.09,21,820.8900000000001,190.89000000000007,True,False,False,20
+2025-11-17,0,1,Borshch,Hot,55,94.3,38,3583.4,1493.4,False,False,False,-1
+2025-11-17,0,2,Pure with cutlet,Hot,70,120.46,15,1806.9,756.8999999999999,False,False,False,19
+2025-11-17,0,3,Grechka with chicken,Hot,65,107.35,19,2039.65,804.6499999999999,False,False,False,15
+2025-11-17,0,4,Salad Olivye,Salad,45,98.26,31,3046.06,1651.0600000000002,False,False,False,18
+2025-11-17,0,5,Pizza slice,Bakery,80,174.91,47,8220.77,4460.77,False,False,False,-3
+2025-11-17,0,6,Coffee americano,Drink,40,70.1,26,1822.6,782.5999999999999,False,False,False,4
+2025-11-17,0,7,Tea,Drink,20,31.77,13,413.01,153.01,False,False,False,-13
+2025-11-17,0,8,Bun with poppy,Bakery,30,51.13,16,818.08,338.08000000000004,False,False,False,-7
+2025-11-18,1,1,Borshch,Hot,55,116.1,37,4295.7,2260.7,False,False,False,21
+2025-11-18,1,2,Pure with cutlet,Hot,70,128.46,30,3853.8,1753.8000000000002,False,False,False,6
+2025-11-18,1,3,Grechka with chicken,Hot,65,108.99,16,1743.84,703.8399999999999,False,False,False,15
+2025-11-18,1,4,Salad Olivye,Salad,45,80.12,13,1041.56,456.56000000000006,False,False,False,-11
+2025-11-18,1,5,Pizza slice,Bakery,80,158.44,51,8080.44,4000.44,False,False,False,-6
+2025-11-18,1,6,Coffee americano,Drink,40,86.58,23,1991.34,1071.34,False,False,False,-10
+2025-11-18,1,7,Tea,Drink,20,37.81,21,794.01,374.0100000000001,False,False,False,11
+2025-11-18,1,8,Bun with poppy,Bakery,30,61.61,52,3203.72,1643.72,False,False,False,-1
+2025-11-19,2,1,Borshch,Hot,55,117.48,36,4229.28,2249.28,False,False,False,4
+2025-11-19,2,2,Pure with cutlet,Hot,70,119.96,48,5758.08,2398.08,False,False,False,24
+2025-11-19,2,3,Grechka with chicken,Hot,65,141.18,17,2400.06,1295.0600000000002,False,False,False,-9
+2025-11-19,2,4,Salad Olivye,Salad,45,74.15,28,2076.2000000000003,816.2000000000002,False,False,False,27
+2025-11-19,2,5,Pizza slice,Bakery,80,133.43,12,1601.16,641.1600000000001,False,False,False,20
+2025-11-19,2,6,Coffee americano,Drink,40,60.07,11,660.77,220.77,False,False,False,13
+2025-11-19,2,7,Tea,Drink,20,34.08,50,1704.0,703.9999999999999,False,False,False,-1
+2025-11-19,2,8,Bun with poppy,Bakery,30,59.76,27,1613.52,803.52,False,False,False,14
+2025-11-20,3,1,Borshch,Hot,55,112.83,23,2595.09,1330.09,False,False,False,25
+2025-11-20,3,2,Pure with cutlet,Hot,70,144.39,52,7508.279999999999,3868.2799999999993,False,False,False,-3
+2025-11-20,3,3,Grechka with chicken,Hot,65,122.28,33,4035.24,1890.24,False,False,False,26
+2025-11-20,3,4,Salad Olivye,Salad,45,93.54,18,1683.72,873.7200000000001,False,False,False,-11
+2025-11-20,3,5,Pizza slice,Bakery,80,164.39,10,1643.9,843.8999999999999,False,False,False,23
+2025-11-20,3,6,Coffee americano,Drink,40,72.3,45,3253.5,1453.4999999999998,False,False,False,14
+2025-11-20,3,7,Tea,Drink,20,43.2,30,1296.0,696.0000000000001,False,False,False,17
+2025-11-20,3,8,Bun with poppy,Bakery,30,54.19,46,2492.74,1112.7399999999998,False,False,False,23
+2025-11-21,4,1,Borshch,Hot,55,75.96,11,835.56,230.55999999999997,False,False,True,-14
+2025-11-21,4,2,Pure with cutlet,Hot,70,104.2,2,208.4,68.4,False,False,True,21
+2025-11-21,4,3,Grechka with chicken,Hot,65,97.49,9,877.41,292.41,False,False,True,28
+2025-11-21,4,4,Salad Olivye,Salad,45,54.54,12,654.48,114.48,False,False,True,-4
+2025-11-21,4,5,Pizza slice,Bakery,80,111.64,15,1674.6,474.6,False,False,True,2
+2025-11-21,4,6,Coffee americano,Drink,40,53.23,10,532.3,132.29999999999995,False,False,True,16
+2025-11-21,4,7,Tea,Drink,20,26.09,6,156.54,36.54,False,False,True,6
+2025-11-21,4,8,Bun with poppy,Bakery,30,36.94,14,517.16,97.15999999999995,False,False,True,-5
+2025-11-22,5,1,Borshch,Hot,55,76.93,15,1153.95,328.9500000000001,True,False,False,10
+2025-11-22,5,2,Pure with cutlet,Hot,70,93.55,13,1216.15,306.15,True,False,False,5
+2025-11-22,5,3,Grechka with chicken,Hot,65,80.26,10,802.6,152.60000000000005,True,False,False,10
+2025-11-22,5,4,Salad Olivye,Salad,45,62.88,11,691.6800000000001,196.68000000000004,True,False,False,19
+2025-11-22,5,5,Pizza slice,Bakery,80,97.3,16,1556.8,276.79999999999995,True,False,False,18
+2025-11-22,5,6,Coffee americano,Drink,40,57.08,17,970.36,290.36,True,False,False,25
+2025-11-22,5,7,Tea,Drink,20,25.22,10,252.2,52.19999999999999,True,False,False,20
+2025-11-22,5,8,Bun with poppy,Bakery,30,39.94,6,239.64,59.63999999999999,True,False,False,29
+2025-11-23,6,1,Borshch,Hot,55,76.05,9,684.4499999999999,189.45,True,False,False,0
+2025-11-23,6,2,Pure with cutlet,Hot,70,95.57,7,668.99,178.98999999999995,True,False,False,20
+2025-11-23,6,3,Grechka with chicken,Hot,65,82.38,10,823.8,173.79999999999995,True,False,False,-8
+2025-11-23,6,4,Salad Olivye,Salad,45,62.74,11,690.14,195.14,True,False,False,-6
+2025-11-23,6,5,Pizza slice,Bakery,80,108.21,15,1623.15,423.1499999999999,True,False,False,2
+2025-11-23,6,6,Coffee americano,Drink,40,59.76,16,956.16,316.16,True,False,False,0
+2025-11-23,6,7,Tea,Drink,20,24.87,18,447.66,87.66000000000003,True,False,False,-3
+2025-11-23,6,8,Bun with poppy,Bakery,30,42.72,22,939.84,279.84,True,False,False,-7
+2025-11-24,0,1,Borshch,Hot,55,95.59,28,2676.52,1136.52,False,False,False,17
+2025-11-24,0,2,Pure with cutlet,Hot,70,118.86,22,2614.92,1074.92,False,False,False,4
+2025-11-24,0,3,Grechka with chicken,Hot,65,142.95,51,7290.45,3975.45,False,False,False,16
+2025-11-24,0,4,Salad Olivye,Salad,45,84.47,21,1773.87,828.87,False,False,False,7
+2025-11-24,0,5,Pizza slice,Bakery,80,162.72,34,5532.48,2812.48,False,False,False,9
+2025-11-24,0,6,Coffee americano,Drink,40,84.35,39,3289.65,1729.65,False,False,False,29
+2025-11-24,0,7,Tea,Drink,20,35.36,29,1025.44,445.44,False,False,False,11
+2025-11-24,0,8,Bun with poppy,Bakery,30,60.64,12,727.6800000000001,367.68,False,False,False,30
+2025-11-25,1,1,Borshch,Hot,55,120.55,35,4219.25,2294.25,False,False,False,26
+2025-11-25,1,2,Pure with cutlet,Hot,70,152.28,21,3197.88,1727.88,False,False,False,-7
+2025-11-25,1,3,Grechka with chicken,Hot,65,112.61,46,5180.06,2190.06,False,False,False,-9
+2025-11-25,1,4,Salad Olivye,Salad,45,84.07,34,2858.38,1328.3799999999997,False,False,False,14
+2025-11-25,1,5,Pizza slice,Bakery,80,142.96,7,1000.72,440.72,False,False,False,26
+2025-11-25,1,6,Coffee americano,Drink,40,73.15,15,1097.25,497.2500000000001,False,False,False,1
+2025-11-25,1,7,Tea,Drink,20,39.7,35,1389.5,689.5000000000001,False,False,False,26
+2025-11-25,1,8,Bun with poppy,Bakery,30,62.9,15,943.5,493.5,False,False,False,19
+2025-11-26,2,1,Borshch,Hot,55,110.17,35,3855.95,1930.95,False,False,False,16
+2025-11-26,2,2,Pure with cutlet,Hot,70,135.26,39,5275.139999999999,2545.1399999999994,False,False,False,0
+2025-11-26,2,3,Grechka with chicken,Hot,65,139.4,55,7667.0,4092.000000000001,False,False,False,-1
+2025-11-26,2,4,Salad Olivye,Salad,45,98.32,16,1573.12,853.1199999999999,False,False,False,25
+2025-11-26,2,5,Pizza slice,Bakery,80,129.32,18,2327.76,887.7599999999999,False,False,False,4
+2025-11-26,2,6,Coffee americano,Drink,40,69.08,6,414.48,174.48,False,False,False,-12
+2025-11-26,2,7,Tea,Drink,20,35.25,28,987.0,427.0,False,False,False,-6
+2025-11-26,2,8,Bun with poppy,Bakery,30,53.65,28,1502.2,662.1999999999999,False,False,False,28
+2025-11-27,3,1,Borshch,Hot,55,85.54,17,1454.18,519.1800000000001,False,False,False,9
+2025-11-27,3,2,Pure with cutlet,Hot,70,116.8,54,6307.2,2527.2,False,False,False,22
+2025-11-27,3,3,Grechka with chicken,Hot,65,118.48,17,2014.16,909.16,False,False,False,1
+2025-11-27,3,4,Salad Olivye,Salad,45,88.51,38,3363.38,1653.38,False,False,False,14
+2025-11-27,3,5,Pizza slice,Bakery,80,150.61,33,4970.13,2330.130000000001,False,False,False,-11
+2025-11-27,3,6,Coffee americano,Drink,40,87.65,38,3330.7000000000003,1810.7000000000005,False,False,False,4
+2025-11-27,3,7,Tea,Drink,20,39.66,51,2022.66,1002.66,False,False,False,14
+2025-11-27,3,8,Bun with poppy,Bakery,30,65.99,27,1781.7299999999998,971.73,False,False,False,15
+2025-11-28,4,1,Borshch,Hot,55,96.32,38,3660.16,1570.16,False,False,False,3
+2025-11-28,4,2,Pure with cutlet,Hot,70,152.92,23,3517.16,1907.16,False,False,False,27
+2025-11-28,4,3,Grechka with chicken,Hot,65,97.87,34,3327.58,1117.5800000000002,False,False,False,28
+2025-11-28,4,4,Salad Olivye,Salad,45,90.97,17,1546.49,781.49,False,False,False,3
+2025-11-28,4,5,Pizza slice,Bakery,80,164.91,28,4617.48,2377.48,False,False,False,-1
+2025-11-28,4,6,Coffee americano,Drink,40,77.38,48,3714.24,1794.2399999999998,False,False,False,28
+2025-11-28,4,7,Tea,Drink,20,31.36,23,721.28,261.28,False,False,False,25
+2025-11-28,4,8,Bun with poppy,Bakery,30,61.56,11,677.1600000000001,347.16,False,False,False,-13
+2025-11-29,5,1,Borshch,Hot,55,81.01,3,243.03000000000003,78.03000000000002,True,False,False,5
+2025-11-29,5,2,Pure with cutlet,Hot,70,88.22,11,970.42,200.42,True,False,False,19
+2025-11-29,5,3,Grechka with chicken,Hot,65,87.78,16,1404.48,364.48,True,False,False,2
+2025-11-29,5,4,Salad Olivye,Salad,45,66.34,7,464.38,149.38000000000002,True,False,False,15
+2025-11-29,5,5,Pizza slice,Bakery,80,115.3,11,1268.3,388.3,True,False,False,14
+2025-11-29,5,6,Coffee americano,Drink,40,57.05,2,114.1,34.099999999999994,True,False,False,-1
+2025-11-29,5,7,Tea,Drink,20,26.19,17,445.23,105.23000000000002,True,False,False,10
+2025-11-29,5,8,Bun with poppy,Bakery,30,40.83,3,122.49,32.489999999999995,True,False,False,14
+2025-11-30,6,1,Borshch,Hot,55,72.29,14,1012.06,242.0600000000001,True,False,False,25
+2025-11-30,6,2,Pure with cutlet,Hot,70,98.17,9,883.53,253.53000000000003,True,False,False,15
+2025-11-30,6,3,Grechka with chicken,Hot,65,95.24,8,761.92,241.92,True,False,False,20
+2025-11-30,6,4,Salad Olivye,Salad,45,56.99,16,911.84,191.84000000000003,True,False,False,-11
+2025-11-30,6,5,Pizza slice,Bakery,80,117.83,22,2592.26,832.26,True,False,False,4
+2025-11-30,6,6,Coffee americano,Drink,40,49.68,10,496.8,96.8,True,False,False,-13
+2025-11-30,6,7,Tea,Drink,20,24.7,13,321.1,61.1,True,False,False,0
+2025-11-30,6,8,Bun with poppy,Bakery,30,39.5,14,553.0,133.0,True,False,False,8
+2025-12-01,0,1,Borshch,Hot,55,105.11,45,4729.95,2254.95,False,False,False,-6
+2025-12-01,0,2,Pure with cutlet,Hot,70,109.85,41,4503.849999999999,1633.8499999999997,False,False,False,16
+2025-12-01,0,3,Grechka with chicken,Hot,65,140.23,50,7011.499999999999,3761.5,False,False,False,2
+2025-12-01,0,4,Salad Olivye,Salad,45,74.34,12,892.08,352.08000000000004,False,False,False,13
+2025-12-01,0,5,Pizza slice,Bakery,80,125.56,25,3139.0,1139.0,False,False,False,28
+2025-12-01,0,6,Coffee americano,Drink,40,85.25,36,3069.0,1629.0,False,False,False,26
+2025-12-01,0,7,Tea,Drink,20,35.57,27,960.39,420.39,False,False,False,-3
+2025-12-01,0,8,Bun with poppy,Bakery,30,46.93,19,891.67,321.67,False,False,False,-2
+2025-12-02,1,1,Borshch,Hot,55,84.45,43,3631.35,1266.35,False,False,False,6
+2025-12-02,1,2,Pure with cutlet,Hot,70,143.56,22,3158.32,1618.3200000000002,False,False,False,-2
+2025-12-02,1,3,Grechka with chicken,Hot,65,106.93,17,1817.81,712.8100000000002,False,False,False,-2
+2025-12-02,1,4,Salad Olivye,Salad,45,91.89,24,2205.36,1125.36,False,False,False,23
+2025-12-02,1,5,Pizza slice,Bakery,80,168.07,9,1512.63,792.6299999999999,False,False,False,-6
+2025-12-02,1,6,Coffee americano,Drink,40,67.02,21,1407.4199999999998,567.42,False,False,False,-4
+2025-12-02,1,7,Tea,Drink,20,42.13,22,926.86,486.86000000000007,False,False,False,-7
+2025-12-02,1,8,Bun with poppy,Bakery,30,61.59,10,615.9000000000001,315.90000000000003,False,False,False,0
+2025-12-03,2,1,Borshch,Hot,55,92.72,8,741.76,301.76,False,False,False,-7
+2025-12-03,2,2,Pure with cutlet,Hot,70,110.57,39,4312.23,1582.2299999999998,False,False,False,-11
+2025-12-03,2,3,Grechka with chicken,Hot,65,132.9,42,5581.8,2851.8,False,False,False,17
+2025-12-03,2,4,Salad Olivye,Salad,45,81.74,43,3514.82,1579.8199999999997,False,False,False,-1
+2025-12-03,2,5,Pizza slice,Bakery,80,160.73,44,7072.12,3552.1199999999994,False,False,False,27
+2025-12-03,2,6,Coffee americano,Drink,40,72.83,42,3058.86,1378.86,False,False,False,-14
+2025-12-03,2,7,Tea,Drink,20,41.86,15,627.9,327.9,False,False,False,12
+2025-12-03,2,8,Bun with poppy,Bakery,30,59.96,18,1079.28,539.28,False,False,False,13
+2025-12-04,3,1,Borshch,Hot,55,105.92,15,1588.8,763.8000000000001,False,False,False,-11
+2025-12-04,3,2,Pure with cutlet,Hot,70,135.59,17,2305.03,1115.03,False,False,False,22
+2025-12-04,3,3,Grechka with chicken,Hot,65,114.83,45,5167.35,2242.35,False,False,False,23
+2025-12-04,3,4,Salad Olivye,Salad,45,81.79,42,3435.1800000000003,1545.1800000000003,False,False,False,23
+2025-12-04,3,5,Pizza slice,Bakery,80,164.41,33,5425.53,2785.53,False,False,False,-8
+2025-12-04,3,6,Coffee americano,Drink,40,72.04,43,3097.7200000000003,1377.7200000000005,False,False,False,-1
+2025-12-04,3,7,Tea,Drink,20,41.58,36,1496.88,776.8799999999999,False,False,False,10
+2025-12-04,3,8,Bun with poppy,Bakery,30,51.56,32,1649.92,689.9200000000001,False,False,False,5
+2025-12-05,4,1,Borshch,Hot,55,108.94,30,3268.2,1618.1999999999998,False,False,False,15
+2025-12-05,4,2,Pure with cutlet,Hot,70,145.76,10,1457.6,757.5999999999999,False,False,False,-10
+2025-12-05,4,3,Grechka with chicken,Hot,65,131.38,33,4335.54,2190.54,False,False,False,8
+2025-12-05,4,4,Salad Olivye,Salad,45,69.39,21,1457.19,512.19,False,False,False,20
+2025-12-05,4,5,Pizza slice,Bakery,80,157.52,45,7088.400000000001,3488.4000000000005,False,False,False,11
+2025-12-05,4,6,Coffee americano,Drink,40,86.35,37,3194.95,1714.9499999999998,False,False,False,12
+2025-12-05,4,7,Tea,Drink,20,38.41,12,460.92,220.92,False,False,False,7
+2025-12-05,4,8,Bun with poppy,Bakery,30,55.66,20,1113.1999999999998,513.1999999999999,False,False,False,-6
+2025-12-06,5,1,Borshch,Hot,55,71.78,5,358.9,83.9,True,False,False,20
+2025-12-06,5,2,Pure with cutlet,Hot,70,100.01,9,900.09,270.09000000000003,True,False,False,21
+2025-12-06,5,3,Grechka with chicken,Hot,65,94.48,10,944.8,294.80000000000007,True,False,False,24
+2025-12-06,5,4,Salad Olivye,Salad,45,62.68,24,1504.32,424.32,True,False,False,-14
+2025-12-06,5,5,Pizza slice,Bakery,80,115.91,24,2781.84,861.8399999999999,True,False,False,2
+2025-12-06,5,6,Coffee americano,Drink,40,51.28,1,51.28,11.28,True,False,False,4
+2025-12-06,5,7,Tea,Drink,20,24.04,12,288.48,48.47999999999999,True,False,False,-6
+2025-12-06,5,8,Bun with poppy,Bakery,30,39.61,23,911.03,221.03,True,False,False,-6
+2025-12-07,6,1,Borshch,Hot,55,78.31,1,78.31,23.31,True,False,False,-2
+2025-12-07,6,2,Pure with cutlet,Hot,70,93.53,14,1309.42,329.42,True,False,False,-5
+2025-12-07,6,3,Grechka with chicken,Hot,65,92.07,12,1104.84,324.8399999999999,True,False,False,21
+2025-12-07,6,4,Salad Olivye,Salad,45,65.93,15,988.95,313.9500000000001,True,False,False,-6
+2025-12-07,6,5,Pizza slice,Bakery,80,97.19,12,1166.28,206.28,True,False,False,-10
+2025-12-07,6,6,Coffee americano,Drink,40,55.94,12,671.28,191.28,True,False,False,16
+2025-12-07,6,7,Tea,Drink,20,26.49,21,556.29,136.28999999999996,True,False,False,-2
+2025-12-07,6,8,Bun with poppy,Bakery,30,39.11,12,469.32,109.32,True,False,False,-8
+2025-12-08,0,1,Borshch,Hot,55,102.79,49,5036.71,2341.7100000000005,False,False,False,4
+2025-12-08,0,2,Pure with cutlet,Hot,70,124.37,10,1243.7,543.7,False,False,False,23
+2025-12-08,0,3,Grechka with chicken,Hot,65,106.8,8,854.4,334.4,False,False,False,-2
+2025-12-08,0,4,Salad Olivye,Salad,45,76.62,17,1302.54,537.5400000000001,False,False,False,-8
+2025-12-08,0,5,Pizza slice,Bakery,80,161.83,12,1941.96,981.9600000000002,False,False,False,-4
+2025-12-08,0,6,Coffee americano,Drink,40,74.91,19,1423.29,663.29,False,False,False,-1
+2025-12-08,0,7,Tea,Drink,20,41.67,45,1875.15,975.15,False,False,False,7
+2025-12-08,0,8,Bun with poppy,Bakery,30,63.1,15,946.5,496.5,False,False,False,-13
+2025-12-09,1,1,Borshch,Hot,55,115.69,35,4049.15,2124.15,False,False,False,21
+2025-12-09,1,2,Pure with cutlet,Hot,70,124.82,41,5117.62,2247.62,False,False,False,25
+2025-12-09,1,3,Grechka with chicken,Hot,65,102.74,35,3595.9,1320.9,False,False,False,-14
+2025-12-09,1,4,Salad Olivye,Salad,45,92.74,27,2503.98,1288.9799999999998,False,False,False,24
+2025-12-09,1,5,Pizza slice,Bakery,80,124.94,39,4872.66,1752.66,False,False,False,-9
+2025-12-09,1,6,Coffee americano,Drink,40,76.49,26,1988.74,948.74,False,False,False,18
+2025-12-09,1,7,Tea,Drink,20,42.19,16,675.04,355.04,False,False,False,6
+2025-12-09,1,8,Bun with poppy,Bakery,30,61.36,24,1472.64,752.64,False,False,False,-11
+2025-12-10,2,1,Borshch,Hot,55,102.13,20,2042.6,942.6,False,False,False,7
+2025-12-10,2,2,Pure with cutlet,Hot,70,144.94,37,5362.78,2772.78,False,False,False,0
+2025-12-10,2,3,Grechka with chicken,Hot,65,109.15,13,1418.95,573.95,False,False,False,-4
+2025-12-10,2,4,Salad Olivye,Salad,45,91.45,45,4115.25,2090.25,False,False,False,26
+2025-12-10,2,5,Pizza slice,Bakery,80,173.27,11,1905.97,1025.97,False,False,False,25
+2025-12-10,2,6,Coffee americano,Drink,40,81.12,43,3488.1600000000003,1768.1600000000003,False,False,False,22
+2025-12-10,2,7,Tea,Drink,20,42.94,43,1846.42,986.4199999999998,False,False,False,21
+2025-12-10,2,8,Bun with poppy,Bakery,30,51.79,54,2796.66,1176.66,False,False,False,25
+2025-12-11,3,1,Borshch,Hot,55,100.55,34,3418.7,1548.6999999999998,False,False,False,25
+2025-12-11,3,2,Pure with cutlet,Hot,70,133.98,28,3751.44,1791.4399999999996,False,False,False,7
+2025-12-11,3,3,Grechka with chicken,Hot,65,111.62,38,4241.56,1771.5600000000002,False,False,False,13
+2025-12-11,3,4,Salad Olivye,Salad,45,79.12,7,553.84,238.84000000000003,False,False,False,3
+2025-12-11,3,5,Pizza slice,Bakery,80,168.4,19,3199.6,1679.6,False,False,False,-10
+2025-12-11,3,6,Coffee americano,Drink,40,74.2,53,3932.6,1812.6,False,False,False,14
+2025-12-11,3,7,Tea,Drink,20,43.36,50,2168.0,1168.0,False,False,False,-13
+2025-12-11,3,8,Bun with poppy,Bakery,30,58.69,42,2464.98,1204.98,False,False,False,5
+2025-12-12,4,1,Borshch,Hot,55,119.37,39,4655.43,2510.4300000000003,False,False,False,13
+2025-12-12,4,2,Pure with cutlet,Hot,70,153.14,16,2450.24,1330.2399999999998,False,False,False,-10
+2025-12-12,4,3,Grechka with chicken,Hot,65,105.35,47,4951.45,1896.45,False,False,False,0
+2025-12-12,4,4,Salad Olivye,Salad,45,84.01,40,3360.4,1560.4,False,False,False,24
+2025-12-12,4,5,Pizza slice,Bakery,80,140.88,20,2817.6,1217.6,False,False,False,3
+2025-12-12,4,6,Coffee americano,Drink,40,81.69,35,2859.15,1459.15,False,False,False,28
+2025-12-12,4,7,Tea,Drink,20,41.05,43,1765.15,905.15,False,False,False,26
+2025-12-12,4,8,Bun with poppy,Bakery,30,51.92,27,1401.84,591.84,False,False,False,20
+2025-12-13,5,1,Borshch,Hot,55,77.94,10,779.4,229.4,True,False,False,27
+2025-12-13,5,2,Pure with cutlet,Hot,70,91.0,16,1456.0,336.0,True,False,False,22
+2025-12-13,5,3,Grechka with chicken,Hot,65,84.05,7,588.35,133.34999999999997,True,False,False,26
+2025-12-13,5,4,Salad Olivye,Salad,45,62.03,11,682.33,187.33,True,False,False,-10
+2025-12-13,5,5,Pizza slice,Bakery,80,105.04,14,1470.5600000000002,350.56000000000006,True,False,False,6
+2025-12-13,5,6,Coffee americano,Drink,40,56.43,12,677.16,197.16,True,False,False,28
+2025-12-13,5,7,Tea,Drink,20,27.88,13,362.44,102.43999999999998,True,False,False,12
+2025-12-13,5,8,Bun with poppy,Bakery,30,36.16,16,578.56,98.55999999999996,True,False,False,4
+2025-12-14,6,1,Borshch,Hot,55,81.64,9,734.76,239.76,True,False,False,16
+2025-12-14,6,2,Pure with cutlet,Hot,70,105.0,6,630.0,210.0,True,False,False,-6
+2025-12-14,6,3,Grechka with chicken,Hot,65,94.47,4,377.88,117.88,True,False,False,-9
+2025-12-14,6,4,Salad Olivye,Salad,45,65.27,19,1240.13,385.13,True,False,False,18
+2025-12-14,6,5,Pizza slice,Bakery,80,104.08,9,936.72,216.72,True,False,False,24
+2025-12-14,6,6,Coffee americano,Drink,40,52.52,11,577.72,137.72000000000003,True,False,False,-5
+2025-12-14,6,7,Tea,Drink,20,28.85,12,346.20000000000005,106.20000000000002,True,False,False,-5
+2025-12-14,6,8,Bun with poppy,Bakery,30,39.7,10,397.0,97.00000000000004,True,False,False,28
+2025-12-15,0,1,Borshch,Hot,55,93.47,42,3925.74,1615.74,False,False,False,13
+2025-12-15,0,2,Pure with cutlet,Hot,70,116.72,27,3151.44,1261.44,False,False,False,15
+2025-12-15,0,3,Grechka with chicken,Hot,65,128.36,22,2823.92,1393.9200000000003,False,False,False,21
+2025-12-15,0,4,Salad Olivye,Salad,45,91.74,40,3669.6,1869.6,False,False,False,9
+2025-12-15,0,5,Pizza slice,Bakery,80,143.45,45,6455.249999999999,2855.2499999999995,False,False,False,-5
+2025-12-15,0,6,Coffee americano,Drink,40,63.88,26,1660.88,620.8800000000001,False,False,False,1
+2025-12-15,0,7,Tea,Drink,20,36.73,18,661.14,301.14,False,False,False,8
+2025-12-15,0,8,Bun with poppy,Bakery,30,59.94,41,2457.54,1227.54,False,False,False,18
+2025-12-16,1,1,Borshch,Hot,55,111.88,24,2685.12,1365.12,False,False,False,2
+2025-12-16,1,2,Pure with cutlet,Hot,70,112.22,41,4601.02,1731.02,False,False,False,12
+2025-12-16,1,3,Grechka with chicken,Hot,65,134.66,13,1750.58,905.58,False,False,False,7
+2025-12-16,1,4,Salad Olivye,Salad,45,69.18,12,830.1600000000001,290.1600000000001,False,False,False,17
+2025-12-16,1,5,Pizza slice,Bakery,80,141.63,31,4390.53,1910.53,False,False,False,-10
+2025-12-16,1,6,Coffee americano,Drink,40,60.79,31,1884.49,644.49,False,False,False,-9
+2025-12-16,1,7,Tea,Drink,20,31.93,28,894.04,334.04,False,False,False,3
+2025-12-16,1,8,Bun with poppy,Bakery,30,60.94,37,2254.78,1144.78,False,False,False,15
+2025-12-17,2,1,Borshch,Hot,55,83.23,6,499.38,169.38000000000002,False,False,False,-2
+2025-12-17,2,2,Pure with cutlet,Hot,70,151.07,22,3323.54,1783.54,False,False,False,23
+2025-12-17,2,3,Grechka with chicken,Hot,65,102.56,44,4512.64,1652.64,False,False,False,3
+2025-12-17,2,4,Salad Olivye,Salad,45,71.34,24,1712.16,632.1600000000001,False,False,False,0
+2025-12-17,2,5,Pizza slice,Bakery,80,164.46,41,6742.860000000001,3462.86,False,False,False,14
+2025-12-17,2,6,Coffee americano,Drink,40,83.43,10,834.3000000000001,434.30000000000007,False,False,False,16
+2025-12-17,2,7,Tea,Drink,20,30.23,51,1541.73,521.73,False,False,False,17
+2025-12-17,2,8,Bun with poppy,Bakery,30,60.09,44,2643.96,1323.96,False,False,False,3
+2025-12-18,3,1,Borshch,Hot,55,91.76,49,4496.240000000001,1801.2400000000002,False,False,False,11
+2025-12-18,3,2,Pure with cutlet,Hot,70,137.74,26,3581.24,1761.2400000000002,False,False,False,18
+2025-12-18,3,3,Grechka with chicken,Hot,65,140.88,29,4085.52,2200.52,False,False,False,19
+2025-12-18,3,4,Salad Olivye,Salad,45,84.96,45,3823.2,1798.1999999999998,False,False,False,9
+2025-12-18,3,5,Pizza slice,Bakery,80,155.6,35,5446.0,2646.0,False,False,False,8
+2025-12-18,3,6,Coffee americano,Drink,40,70.0,21,1470.0,630.0,False,False,False,-11
+2025-12-18,3,7,Tea,Drink,20,40.26,30,1207.8,607.8,False,False,False,25
+2025-12-18,3,8,Bun with poppy,Bakery,30,60.44,20,1208.8,608.8,False,False,False,6
+2025-12-19,4,1,Borshch,Hot,55,95.53,35,3343.55,1418.55,False,False,False,26
+2025-12-19,4,2,Pure with cutlet,Hot,70,127.77,26,3322.02,1502.02,False,False,False,29
+2025-12-19,4,3,Grechka with chicken,Hot,65,105.79,45,4760.55,1835.55,False,False,False,-7
+2025-12-19,4,4,Salad Olivye,Salad,45,68.66,16,1098.56,378.56,False,False,False,-3
+2025-12-19,4,5,Pizza slice,Bakery,80,169.6,10,1696.0,896.0,False,False,False,5
+2025-12-19,4,6,Coffee americano,Drink,40,71.15,32,2276.8,996.8000000000002,False,False,False,19
+2025-12-19,4,7,Tea,Drink,20,30.51,39,1189.89,409.89,False,False,False,26
+2025-12-19,4,8,Bun with poppy,Bakery,30,52.5,21,1102.5,472.5,False,False,False,-12
+2025-12-20,5,1,Borshch,Hot,55,68.05,11,748.55,143.54999999999995,True,False,False,8
+2025-12-20,5,2,Pure with cutlet,Hot,70,99.61,15,1494.15,444.15,True,False,False,9
+2025-12-20,5,3,Grechka with chicken,Hot,65,87.68,9,789.1200000000001,204.1200000000001,True,False,False,16
+2025-12-20,5,4,Salad Olivye,Salad,45,57.6,16,921.6,201.6,True,False,False,-10
+2025-12-20,5,5,Pizza slice,Bakery,80,106.33,10,1063.3,263.29999999999995,True,False,False,-4
+2025-12-20,5,6,Coffee americano,Drink,40,51.85,16,829.6,189.6,True,False,False,-10
+2025-12-20,5,7,Tea,Drink,20,25.77,17,438.09,98.09,True,False,False,13
+2025-12-20,5,8,Bun with poppy,Bakery,30,37.5,20,750.0,150.0,True,False,False,13
+2025-12-21,6,1,Borshch,Hot,55,76.15,4,304.6,84.60000000000002,True,False,False,12
+2025-12-21,6,2,Pure with cutlet,Hot,70,104.58,15,1568.7,518.6999999999999,True,False,False,-12
+2025-12-21,6,3,Grechka with chicken,Hot,65,90.43,10,904.3,254.30000000000007,True,False,False,8
+2025-12-21,6,4,Salad Olivye,Salad,45,56.16,21,1179.36,234.35999999999996,True,False,False,-14
+2025-12-21,6,5,Pizza slice,Bakery,80,112.27,11,1234.97,354.97,True,False,False,13
+2025-12-21,6,6,Coffee americano,Drink,40,48.81,1,48.81,8.810000000000002,True,False,False,26
+2025-12-21,6,7,Tea,Drink,20,26.3,13,341.90000000000003,81.9,True,False,False,21
+2025-12-21,6,8,Bun with poppy,Bakery,30,37.38,8,299.04,59.04000000000002,True,False,False,13
+2025-12-22,0,1,Borshch,Hot,55,111.88,35,3915.8,1990.8,False,False,False,21
+2025-12-22,0,2,Pure with cutlet,Hot,70,122.98,21,2582.58,1112.5800000000002,False,False,False,5
+2025-12-22,0,3,Grechka with chicken,Hot,65,141.2,25,3529.9999999999995,1905.0,False,False,False,-14
+2025-12-22,0,4,Salad Olivye,Salad,45,83.81,23,1927.63,892.6300000000001,False,False,False,20
+2025-12-22,0,5,Pizza slice,Bakery,80,163.4,16,2614.4,1334.4,False,False,False,30
+2025-12-22,0,6,Coffee americano,Drink,40,87.9,36,3164.4,1724.4,False,False,False,3
+2025-12-22,0,7,Tea,Drink,20,31.72,39,1237.08,457.0799999999999,False,False,False,-11
+2025-12-22,0,8,Bun with poppy,Bakery,30,63.87,35,2235.45,1185.4499999999998,False,False,False,13
+2025-12-23,1,1,Borshch,Hot,55,95.88,35,3355.8,1430.7999999999995,False,False,False,-11
+2025-12-23,1,2,Pure with cutlet,Hot,70,119.23,48,5723.04,2363.04,False,False,False,4
+2025-12-23,1,3,Grechka with chicken,Hot,65,105.42,25,2635.5,1010.5,False,False,False,8
+2025-12-23,1,4,Salad Olivye,Salad,45,71.32,40,2852.8,1052.7999999999995,False,False,False,-3
+2025-12-23,1,5,Pizza slice,Bakery,80,164.26,16,2628.16,1348.16,False,False,False,-14
+2025-12-23,1,6,Coffee americano,Drink,40,76.02,36,2736.72,1296.7199999999998,False,False,False,14
+2025-12-23,1,7,Tea,Drink,20,38.57,42,1619.94,779.94,False,False,False,-10
+2025-12-23,1,8,Bun with poppy,Bakery,30,53.36,13,693.68,303.68,False,False,False,30
+2025-12-24,2,1,Borshch,Hot,55,112.11,44,4932.84,2512.84,False,False,False,21
+2025-12-24,2,2,Pure with cutlet,Hot,70,152.65,11,1679.15,909.15,False,False,False,26
+2025-12-24,2,3,Grechka with chicken,Hot,65,118.7,16,1899.2,859.2,False,False,False,18
+2025-12-24,2,4,Salad Olivye,Salad,45,95.16,29,2759.64,1454.64,False,False,False,20
+2025-12-24,2,5,Pizza slice,Bakery,80,130.19,54,7030.26,2710.26,False,False,False,-7
+2025-12-24,2,6,Coffee americano,Drink,40,85.5,40,3420.0,1820.0,False,False,False,-12
+2025-12-24,2,7,Tea,Drink,20,32.14,20,642.8,242.8,False,False,False,-5
+2025-12-24,2,8,Bun with poppy,Bakery,30,64.63,20,1292.6,692.5999999999999,False,False,False,-1
+2025-12-25,3,1,Borshch,Hot,55,115.07,42,4832.94,2522.94,False,False,False,1
+2025-12-25,3,2,Pure with cutlet,Hot,70,151.86,27,4100.22,2210.2200000000003,False,False,False,2
+2025-12-25,3,3,Grechka with chicken,Hot,65,111.28,23,2559.44,1064.44,False,False,False,19
+2025-12-25,3,4,Salad Olivye,Salad,45,87.69,18,1578.42,768.42,False,False,False,22
+2025-12-25,3,5,Pizza slice,Bakery,80,129.59,44,5701.96,2181.96,False,False,False,24
+2025-12-25,3,6,Coffee americano,Drink,40,83.59,48,4012.32,2092.32,False,False,False,21
+2025-12-25,3,7,Tea,Drink,20,31.14,7,217.98,77.98,False,False,False,26
+2025-12-25,3,8,Bun with poppy,Bakery,30,58.67,45,2640.15,1290.15,False,False,False,21
+2025-12-26,4,1,Borshch,Hot,55,101.67,45,4575.15,2100.15,False,False,False,25
+2025-12-26,4,2,Pure with cutlet,Hot,70,136.45,43,5867.349999999999,2857.3499999999995,False,False,False,4
+2025-12-26,4,3,Grechka with chicken,Hot,65,134.11,38,5096.18,2626.1800000000003,False,False,False,28
+2025-12-26,4,4,Salad Olivye,Salad,45,81.79,34,2780.86,1250.86,False,False,False,29
+2025-12-26,4,5,Pizza slice,Bakery,80,144.62,10,1446.2,646.2,False,False,False,15
+2025-12-26,4,6,Coffee americano,Drink,40,69.53,37,2572.61,1092.61,False,False,False,-6
+2025-12-26,4,7,Tea,Drink,20,40.28,30,1208.4,608.4000000000001,False,False,False,7
+2025-12-26,4,8,Bun with poppy,Bakery,30,60.97,32,1951.04,991.04,False,False,False,17
+2025-12-27,5,1,Borshch,Hot,55,73.7,10,737.0,187.00000000000003,True,False,False,2
+2025-12-27,5,2,Pure with cutlet,Hot,70,86.96,13,1130.48,220.4799999999999,True,False,False,-12
+2025-12-27,5,3,Grechka with chicken,Hot,65,94.85,12,1138.1999999999998,358.19999999999993,True,False,False,11
+2025-12-27,5,4,Salad Olivye,Salad,45,64.98,7,454.86,139.86,True,False,False,21
+2025-12-27,5,5,Pizza slice,Bakery,80,114.31,10,1143.1,343.1,True,False,False,16
+2025-12-27,5,6,Coffee americano,Drink,40,53.99,18,971.82,251.82000000000005,True,False,False,4
+2025-12-27,5,7,Tea,Drink,20,24.54,11,269.94,49.93999999999999,True,False,False,10
+2025-12-27,5,8,Bun with poppy,Bakery,30,44.7,18,804.6,264.6,True,False,False,-2
+2025-12-28,6,1,Borshch,Hot,55,70.64,1,70.64,15.64,True,False,False,23
+2025-12-28,6,2,Pure with cutlet,Hot,70,95.27,15,1429.05,379.05,True,False,False,-9
+2025-12-28,6,3,Grechka with chicken,Hot,65,95.21,11,1047.31,332.30999999999995,True,False,False,8
+2025-12-28,6,4,Salad Olivye,Salad,45,54.61,14,764.54,134.54,True,False,False,-12
+2025-12-28,6,5,Pizza slice,Bakery,80,100.67,21,2114.07,434.0700000000001,True,False,False,20
+2025-12-28,6,6,Coffee americano,Drink,40,52.64,7,368.48,88.48,True,False,False,13
+2025-12-28,6,7,Tea,Drink,20,28.95,17,492.15,152.14999999999998,True,False,False,24
+2025-12-28,6,8,Bun with poppy,Bakery,30,37.16,15,557.4,107.39999999999996,True,False,False,-9
+2025-12-29,0,1,Borshch,Hot,55,118.65,34,4034.1,2164.1000000000004,False,False,False,-6
+2025-12-29,0,2,Pure with cutlet,Hot,70,129.95,26,3378.7,1558.6999999999998,False,False,False,17
+2025-12-29,0,3,Grechka with chicken,Hot,65,99.27,7,694.89,239.89,False,False,False,30
+2025-12-29,0,4,Salad Olivye,Salad,45,83.86,33,2767.38,1282.38,False,False,False,-6
+2025-12-29,0,5,Pizza slice,Bakery,80,127.83,51,6519.33,2439.33,False,False,False,24
+2025-12-29,0,6,Coffee americano,Drink,40,71.0,27,1917.0,837.0,False,False,False,24
+2025-12-29,0,7,Tea,Drink,20,34.71,33,1145.43,485.43,False,False,False,17
+2025-12-29,0,8,Bun with poppy,Bakery,30,59.88,46,2754.48,1374.48,False,False,False,4
+2025-12-30,1,1,Borshch,Hot,55,95.25,11,1047.75,442.75,False,False,False,-8
+2025-12-30,1,2,Pure with cutlet,Hot,70,120.08,40,4803.2,2003.2,False,False,False,29
+2025-12-30,1,3,Grechka with chicken,Hot,65,124.66,45,5609.7,2684.7,False,False,False,1
+2025-12-30,1,4,Salad Olivye,Salad,45,74.67,51,3808.17,1513.17,False,False,False,-12
+2025-12-30,1,5,Pizza slice,Bakery,80,129.55,49,6347.950000000001,2427.9500000000007,False,False,False,25
+2025-12-30,1,6,Coffee americano,Drink,40,64.14,50,3207.0,1207.0,False,False,False,28
+2025-12-30,1,7,Tea,Drink,20,38.02,20,760.4000000000001,360.4000000000001,False,False,False,29
+2025-12-30,1,8,Bun with poppy,Bakery,30,45.4,15,681.0,231.0,False,False,False,5
+2025-12-31,2,1,Borshch,Hot,55,98.3,34,3342.2,1472.1999999999998,False,False,False,24
+2025-12-31,2,2,Pure with cutlet,Hot,70,139.58,35,4885.3,2435.3000000000006,False,False,False,18
+2025-12-31,2,3,Grechka with chicken,Hot,65,112.29,26,2919.54,1229.5400000000002,False,False,False,27
+2025-12-31,2,4,Salad Olivye,Salad,45,79.37,43,3412.9100000000003,1477.9100000000003,False,False,False,-4
+2025-12-31,2,5,Pizza slice,Bakery,80,139.17,42,5845.139999999999,2485.1399999999994,False,False,False,7
+2025-12-31,2,6,Coffee americano,Drink,40,73.56,30,2206.8,1006.8,False,False,False,0
+2025-12-31,2,7,Tea,Drink,20,34.18,30,1025.4,425.4,False,False,False,4
+2025-12-31,2,8,Bun with poppy,Bakery,30,59.5,26,1547.0,767.0,False,False,False,16
+2026-01-01,3,1,Borshch,Hot,55,118.45,35,4145.75,2220.75,False,False,False,2
+2026-01-01,3,2,Pure with cutlet,Hot,70,133.1,24,3194.4,1514.4,False,False,False,19
+2026-01-01,3,3,Grechka with chicken,Hot,65,134.74,35,4715.900000000001,2440.9000000000005,False,False,False,-6
+2026-01-01,3,4,Salad Olivye,Salad,45,76.56,23,1760.88,725.8800000000001,False,False,False,30
+2026-01-01,3,5,Pizza slice,Bakery,80,171.74,15,2576.1000000000004,1376.1,False,False,False,26
+2026-01-01,3,6,Coffee americano,Drink,40,65.99,28,1847.72,727.7199999999998,False,False,False,19
+2026-01-01,3,7,Tea,Drink,20,39.75,30,1192.5,592.5,False,False,False,-7
+2026-01-01,3,8,Bun with poppy,Bakery,30,60.56,20,1211.2,611.2,False,False,False,0
+2026-01-02,4,1,Borshch,Hot,55,107.06,41,4389.46,2134.46,False,False,False,-12
+2026-01-02,4,2,Pure with cutlet,Hot,70,121.18,17,2060.06,870.0600000000002,False,False,False,15
+2026-01-02,4,3,Grechka with chicken,Hot,65,132.57,21,2783.97,1418.9699999999998,False,False,False,-15
+2026-01-02,4,4,Salad Olivye,Salad,45,80.32,42,3373.44,1483.4399999999996,False,False,False,15
+2026-01-02,4,5,Pizza slice,Bakery,80,131.17,45,5902.65,2302.65,False,False,False,3
+2026-01-02,4,6,Coffee americano,Drink,40,78.09,29,2264.61,1104.61,False,False,False,-10
+2026-01-02,4,7,Tea,Drink,20,37.49,44,1649.5600000000002,769.5600000000001,False,False,False,-13
+2026-01-02,4,8,Bun with poppy,Bakery,30,63.53,22,1397.66,737.6600000000001,False,False,False,-4
+2026-01-03,5,1,Borshch,Hot,55,79.0,5,395.0,120.0,True,True,False,-4
+2026-01-03,5,2,Pure with cutlet,Hot,70,84.19,6,505.14,85.13999999999999,True,True,False,21
+2026-01-03,5,3,Grechka with chicken,Hot,65,96.1,15,1441.5,466.4999999999999,True,True,False,6
+2026-01-03,5,4,Salad Olivye,Salad,45,67.35,13,875.55,290.54999999999995,True,True,False,19
+2026-01-03,5,5,Pizza slice,Bakery,80,117.34,19,2229.46,709.46,True,True,False,-7
+2026-01-03,5,6,Coffee americano,Drink,40,51.27,18,922.86,202.86000000000007,True,True,False,-8
+2026-01-03,5,7,Tea,Drink,20,28.39,9,255.51,75.51,True,True,False,26
+2026-01-03,5,8,Bun with poppy,Bakery,30,36.13,7,252.91000000000005,42.91000000000002,True,True,False,6
+2026-01-04,6,1,Borshch,Hot,55,78.5,23,1805.5,540.5,True,True,False,-4
+2026-01-04,6,2,Pure with cutlet,Hot,70,102.84,24,2468.16,788.1600000000001,True,True,False,12
+2026-01-04,6,3,Grechka with chicken,Hot,65,79.69,16,1275.04,235.04,True,True,False,27
+2026-01-04,6,4,Salad Olivye,Salad,45,67.25,3,201.75,66.75,True,True,False,15
+2026-01-04,6,5,Pizza slice,Bakery,80,96.16,10,961.6,161.59999999999997,True,True,False,9
+2026-01-04,6,6,Coffee americano,Drink,40,57.05,12,684.5999999999999,204.6,True,True,False,6
+2026-01-04,6,7,Tea,Drink,20,28.34,15,425.1,125.1,True,True,False,-15
+2026-01-04,6,8,Bun with poppy,Bakery,30,39.24,15,588.6,138.60000000000002,True,True,False,0
+2026-01-05,0,1,Borshch,Hot,55,94.31,12,1131.72,471.72,False,True,False,10
+2026-01-05,0,2,Pure with cutlet,Hot,70,138.82,24,3331.68,1651.6799999999998,False,True,False,25
+2026-01-05,0,3,Grechka with chicken,Hot,65,125.47,16,2007.52,967.52,False,True,False,-1
+2026-01-05,0,4,Salad Olivye,Salad,45,72.33,12,867.96,327.96,False,True,False,23
+2026-01-05,0,5,Pizza slice,Bakery,80,159.31,20,3186.2,1586.2,False,True,False,15
+2026-01-05,0,6,Coffee americano,Drink,40,83.12,31,2576.7200000000003,1336.7200000000005,False,True,False,0
+2026-01-05,0,7,Tea,Drink,20,37.36,24,896.64,416.64,False,True,False,18
+2026-01-05,0,8,Bun with poppy,Bakery,30,64.26,15,963.9,513.9000000000001,False,True,False,-8
+2026-01-06,1,1,Borshch,Hot,55,90.28,30,2708.4,1058.4,False,True,False,19
+2026-01-06,1,2,Pure with cutlet,Hot,70,121.08,8,968.64,408.64,False,True,False,18
+2026-01-06,1,3,Grechka with chicken,Hot,65,128.45,18,2312.1,1142.1,False,True,False,30
+2026-01-06,1,4,Salad Olivye,Salad,45,70.36,30,2110.8,760.8,False,True,False,17
+2026-01-06,1,5,Pizza slice,Bakery,80,145.39,17,2471.63,1111.6299999999997,False,True,False,17
+2026-01-06,1,6,Coffee americano,Drink,40,75.79,23,1743.17,823.1700000000002,False,True,False,20
+2026-01-06,1,7,Tea,Drink,20,41.3,28,1156.4,596.3999999999999,False,True,False,-14
+2026-01-06,1,8,Bun with poppy,Bakery,30,62.15,20,1243.0,643.0,False,True,False,-2
+2026-01-07,2,1,Borshch,Hot,55,95.76,8,766.08,326.08000000000004,False,True,False,-11
+2026-01-07,2,2,Pure with cutlet,Hot,70,150.79,21,3166.59,1696.59,False,True,False,-11
+2026-01-07,2,3,Grechka with chicken,Hot,65,110.56,19,2100.64,865.6400000000001,False,True,False,-4
+2026-01-07,2,4,Salad Olivye,Salad,45,98.32,15,1474.8,799.8,False,True,False,26
+2026-01-07,2,5,Pizza slice,Bakery,80,175.6,21,3687.6,2007.6,False,True,False,9
+2026-01-07,2,6,Coffee americano,Drink,40,70.52,23,1621.9599999999998,701.9599999999999,False,True,False,28
+2026-01-07,2,7,Tea,Drink,20,39.15,23,900.4499999999999,440.45,False,True,False,7
+2026-01-07,2,8,Bun with poppy,Bakery,30,65.85,7,460.94999999999993,250.95,False,True,False,10
+2026-01-08,3,1,Borshch,Hot,55,111.61,9,1004.49,509.49,False,True,False,4
+2026-01-08,3,2,Pure with cutlet,Hot,70,140.24,28,3926.72,1966.7200000000005,False,True,False,12
+2026-01-08,3,3,Grechka with chicken,Hot,65,134.96,27,3643.92,1888.9200000000003,False,True,False,0
+2026-01-08,3,4,Salad Olivye,Salad,45,72.39,23,1664.97,629.97,False,True,False,-3
+2026-01-08,3,5,Pizza slice,Bakery,80,165.33,5,826.6500000000001,426.6500000000001,False,True,False,11
+2026-01-08,3,6,Coffee americano,Drink,40,66.74,24,1601.7599999999998,641.7599999999999,False,True,False,-11
+2026-01-08,3,7,Tea,Drink,20,30.47,13,396.11,136.11,False,True,False,23
+2026-01-08,3,8,Bun with poppy,Bakery,30,60.55,5,302.75,152.75,False,True,False,10
+2026-01-09,4,1,Borshch,Hot,55,111.54,24,2676.96,1356.96,False,True,False,-12
+2026-01-09,4,2,Pure with cutlet,Hot,70,153.68,13,1997.84,1087.84,False,True,False,-1
+2026-01-09,4,3,Grechka with chicken,Hot,65,123.78,27,3342.06,1587.06,False,True,False,28
+2026-01-09,4,4,Salad Olivye,Salad,45,77.01,16,1232.16,512.1600000000001,False,True,False,-6
+2026-01-09,4,5,Pizza slice,Bakery,80,143.16,23,3292.68,1452.6799999999998,False,True,False,2
+2026-01-09,4,6,Coffee americano,Drink,40,86.56,10,865.6,465.6,False,True,False,-4
+2026-01-09,4,7,Tea,Drink,20,35.98,35,1259.3,559.2999999999998,False,True,False,16
+2026-01-09,4,8,Bun with poppy,Bakery,30,64.77,7,453.39,243.39,False,True,False,27
+2026-01-10,5,1,Borshch,Hot,55,77.49,17,1317.33,382.3299999999999,True,True,False,11
+2026-01-10,5,2,Pure with cutlet,Hot,70,91.91,6,551.46,131.45999999999998,True,True,False,19
+2026-01-10,5,3,Grechka with chicken,Hot,65,94.56,14,1323.84,413.84,True,True,False,4
+2026-01-10,5,4,Salad Olivye,Salad,45,66.35,9,597.15,192.14999999999995,True,True,False,20
+2026-01-10,5,5,Pizza slice,Bakery,80,109.37,15,1640.5500000000002,440.55000000000007,True,True,False,-7
+2026-01-10,5,6,Coffee americano,Drink,40,51.06,11,561.6600000000001,121.66000000000004,True,True,False,6
+2026-01-10,5,7,Tea,Drink,20,29.08,8,232.64,72.63999999999999,True,True,False,-10
+2026-01-10,5,8,Bun with poppy,Bakery,30,36.46,15,546.9,96.9,True,True,False,9
+2026-01-11,6,1,Borshch,Hot,55,80.41,14,1125.74,355.73999999999995,True,True,False,-3
+2026-01-11,6,2,Pure with cutlet,Hot,70,95.74,23,2202.02,592.0199999999999,True,True,False,15
+2026-01-11,6,3,Grechka with chicken,Hot,65,83.91,9,755.1899999999999,170.18999999999997,True,True,False,-15
+2026-01-11,6,4,Salad Olivye,Salad,45,66.99,7,468.93,153.92999999999995,True,True,False,-8
+2026-01-11,6,5,Pizza slice,Bakery,80,112.7,14,1577.8,457.80000000000007,True,True,False,30
+2026-01-11,6,6,Coffee americano,Drink,40,58.98,10,589.8,189.79999999999995,True,True,False,20
+2026-01-11,6,7,Tea,Drink,20,26.28,11,289.08000000000004,69.08000000000001,True,True,False,19
+2026-01-11,6,8,Bun with poppy,Bakery,30,38.35,11,421.85,91.85000000000002,True,True,False,17
+2026-01-12,0,1,Borshch,Hot,55,113.41,19,2154.79,1109.79,False,True,False,15
+2026-01-12,0,2,Pure with cutlet,Hot,70,123.16,16,1970.56,850.56,False,True,False,11
+2026-01-12,0,3,Grechka with chicken,Hot,65,136.82,11,1505.02,790.02,False,True,False,-6
+2026-01-12,0,4,Salad Olivye,Salad,45,84.93,5,424.65,199.65000000000003,False,True,False,22
+2026-01-12,0,5,Pizza slice,Bakery,80,136.53,29,3959.37,1639.37,False,True,False,-3
+2026-01-12,0,6,Coffee americano,Drink,40,70.64,16,1130.24,490.24,False,True,False,0
+2026-01-12,0,7,Tea,Drink,20,39.16,27,1057.32,517.3199999999999,False,True,False,28
+2026-01-12,0,8,Bun with poppy,Bakery,30,61.03,17,1037.51,527.51,False,True,False,16
+2026-01-13,1,1,Borshch,Hot,55,88.98,26,2313.48,883.4800000000001,False,True,False,7
+2026-01-13,1,2,Pure with cutlet,Hot,70,140.3,9,1262.7,632.7,False,True,False,16
+2026-01-13,1,3,Grechka with chicken,Hot,65,142.56,15,2138.4,1163.4,False,True,False,-12
+2026-01-13,1,4,Salad Olivye,Salad,45,93.93,20,1878.6,978.6,False,True,False,-11
+2026-01-13,1,5,Pizza slice,Bakery,80,143.09,2,286.18,126.18,False,True,False,25
+2026-01-13,1,6,Coffee americano,Drink,40,79.8,10,798.0,398.0,False,True,False,-15
+2026-01-13,1,7,Tea,Drink,20,36.38,16,582.08,262.08000000000004,False,True,False,-12
+2026-01-13,1,8,Bun with poppy,Bakery,30,59.0,34,2006.0,986.0,False,True,False,24
+2026-01-14,2,1,Borshch,Hot,55,82.75,36,2979.0,999.0,False,False,False,20
+2026-01-14,2,2,Pure with cutlet,Hot,70,105.82,31,3280.42,1110.4199999999998,False,False,False,2
+2026-01-14,2,3,Grechka with chicken,Hot,65,98.28,43,4226.04,1431.04,False,False,False,29
+2026-01-14,2,4,Salad Olivye,Salad,45,70.87,34,2409.58,879.5800000000002,False,False,False,-9
+2026-01-14,2,5,Pizza slice,Bakery,80,133.49,40,5339.6,2139.6000000000004,False,False,False,24
+2026-01-14,2,6,Coffee americano,Drink,40,82.83,42,3478.86,1798.86,False,False,False,2
+2026-01-14,2,7,Tea,Drink,20,35.22,31,1091.82,471.82,False,False,False,10
+2026-01-14,2,8,Bun with poppy,Bakery,30,50.11,43,2154.73,864.73,False,False,False,29
+2026-01-15,3,1,Borshch,Hot,55,120.68,20,2413.6000000000004,1313.6,False,False,False,26
+2026-01-15,3,2,Pure with cutlet,Hot,70,124.86,8,998.88,438.88,False,False,False,9
+2026-01-15,3,3,Grechka with chicken,Hot,65,100.05,47,4702.349999999999,1647.35,False,False,False,-15
+2026-01-15,3,4,Salad Olivye,Salad,45,83.25,16,1332.0,612.0,False,False,False,12
+2026-01-15,3,5,Pizza slice,Bakery,80,174.73,35,6115.549999999999,3315.55,False,False,False,-9
+2026-01-15,3,6,Coffee americano,Drink,40,66.43,38,2524.34,1004.3400000000004,False,False,False,29
+2026-01-15,3,7,Tea,Drink,20,33.8,48,1622.4,662.3999999999999,False,False,False,-11
+2026-01-15,3,8,Bun with poppy,Bakery,30,56.83,30,1704.9,804.9,False,False,False,-13
+2026-01-16,4,1,Borshch,Hot,55,119.52,25,2988.0,1613.0,False,False,False,22
+2026-01-16,4,2,Pure with cutlet,Hot,70,150.51,20,3010.2,1610.1999999999998,False,False,False,4
+2026-01-16,4,3,Grechka with chicken,Hot,65,108.44,24,2602.56,1042.56,False,False,False,9
+2026-01-16,4,4,Salad Olivye,Salad,45,79.59,44,3501.96,1521.96,False,False,False,-7
+2026-01-16,4,5,Pizza slice,Bakery,80,161.75,18,2911.5,1471.5,False,False,False,7
+2026-01-16,4,6,Coffee americano,Drink,40,72.24,9,650.16,290.16,False,False,False,-11
+2026-01-16,4,7,Tea,Drink,20,40.77,35,1426.95,726.9500000000002,False,False,False,23
+2026-01-16,4,8,Bun with poppy,Bakery,30,45.62,35,1596.6999999999998,546.6999999999999,False,False,False,2
+2026-01-17,5,1,Borshch,Hot,55,69.76,17,1185.92,250.92000000000007,True,False,False,20
+2026-01-17,5,2,Pure with cutlet,Hot,70,87.9,14,1230.6,250.60000000000008,True,False,False,22
+2026-01-17,5,3,Grechka with chicken,Hot,65,93.06,9,837.54,252.54,True,False,False,3
+2026-01-17,5,4,Salad Olivye,Salad,45,55.11,6,330.66,60.66,True,False,False,-6
+2026-01-17,5,5,Pizza slice,Bakery,80,99.7,18,1794.6,354.6,True,False,False,9
+2026-01-17,5,6,Coffee americano,Drink,40,49.28,12,591.36,111.36,True,False,False,-15
+2026-01-17,5,7,Tea,Drink,20,26.16,13,340.08,80.08,True,False,False,2
+2026-01-17,5,8,Bun with poppy,Bakery,30,36.79,3,110.37,20.37,True,False,False,12
+2026-01-18,6,1,Borshch,Hot,55,72.73,21,1527.3300000000002,372.3300000000001,True,False,False,-14
+2026-01-18,6,2,Pure with cutlet,Hot,70,95.64,6,573.84,153.84,True,False,False,23
+2026-01-18,6,3,Grechka with chicken,Hot,65,94.84,19,1801.96,566.96,True,False,False,-15
+2026-01-18,6,4,Salad Olivye,Salad,45,59.24,12,710.88,170.88000000000002,True,False,False,-10
+2026-01-18,6,5,Pizza slice,Bakery,80,109.73,16,1755.68,475.68000000000006,True,False,False,-5
+2026-01-18,6,6,Coffee americano,Drink,40,49.67,10,496.7000000000001,96.70000000000002,True,False,False,4
+2026-01-18,6,7,Tea,Drink,20,24.88,12,298.56,58.55999999999999,True,False,False,-5
+2026-01-18,6,8,Bun with poppy,Bakery,30,39.79,13,517.27,127.26999999999998,True,False,False,15
+2026-01-19,0,1,Borshch,Hot,55,118.85,32,3803.2,2043.2,False,False,False,25
+2026-01-19,0,2,Pure with cutlet,Hot,70,135.22,45,6084.9,2934.9,False,False,False,14
+2026-01-19,0,3,Grechka with chicken,Hot,65,111.36,13,1447.68,602.68,False,False,False,10
+2026-01-19,0,4,Salad Olivye,Salad,45,79.47,35,2781.45,1206.45,False,False,False,6
+2026-01-19,0,5,Pizza slice,Bakery,80,144.11,38,5476.18,2436.1800000000003,False,False,False,26
+2026-01-19,0,6,Coffee americano,Drink,40,68.41,45,3078.45,1278.4499999999998,False,False,False,23
+2026-01-19,0,7,Tea,Drink,20,34.4,24,825.5999999999999,345.6,False,False,False,10
+2026-01-19,0,8,Bun with poppy,Bakery,30,60.43,29,1752.47,882.47,False,False,False,25
+2026-01-20,1,1,Borshch,Hot,55,95.05,44,4182.2,1762.1999999999998,False,False,False,2
+2026-01-20,1,2,Pure with cutlet,Hot,70,110.58,35,3870.3,1420.3,False,False,False,21
+2026-01-20,1,3,Grechka with chicken,Hot,65,142.88,26,3714.88,2024.88,False,False,False,-4
+2026-01-20,1,4,Salad Olivye,Salad,45,97.52,40,3900.8,2100.8,False,False,False,14
+2026-01-20,1,5,Pizza slice,Bakery,80,164.67,25,4116.75,2116.7499999999995,False,False,False,29
+2026-01-20,1,6,Coffee americano,Drink,40,78.84,15,1182.6,582.6,False,False,False,-7
+2026-01-20,1,7,Tea,Drink,20,33.39,49,1636.11,656.11,False,False,False,27
+2026-01-20,1,8,Bun with poppy,Bakery,30,61.57,20,1231.4,631.4,False,False,False,-11
+2026-01-21,2,1,Borshch,Hot,55,104.92,50,5246.0,2496.0,False,False,False,19
+2026-01-21,2,2,Pure with cutlet,Hot,70,131.64,43,5660.52,2650.5199999999995,False,False,False,8
+2026-01-21,2,3,Grechka with chicken,Hot,65,126.54,48,6073.92,2953.92,False,False,False,-10
+2026-01-21,2,4,Salad Olivye,Salad,45,88.21,14,1234.9399999999998,604.9399999999999,False,False,False,7
+2026-01-21,2,5,Pizza slice,Bakery,80,154.31,25,3857.75,1857.75,False,False,False,21
+2026-01-21,2,6,Coffee americano,Drink,40,87.04,35,3046.4,1646.4000000000003,False,False,False,12
+2026-01-21,2,7,Tea,Drink,20,31.38,11,345.18,125.18,False,False,False,-1
+2026-01-21,2,8,Bun with poppy,Bakery,30,56.72,45,2552.4,1202.4,False,False,False,29
+2026-01-22,3,1,Borshch,Hot,55,97.56,38,3707.28,1617.2800000000002,False,False,False,28
+2026-01-22,3,2,Pure with cutlet,Hot,70,112.39,50,5619.5,2119.5,False,False,False,-14
+2026-01-22,3,3,Grechka with chicken,Hot,65,110.94,36,3993.84,1653.84,False,False,False,-10
+2026-01-22,3,4,Salad Olivye,Salad,45,78.47,14,1098.58,468.58,False,False,False,6
+2026-01-22,3,5,Pizza slice,Bakery,80,149.18,37,5519.66,2559.6600000000003,False,False,False,7
+2026-01-22,3,6,Coffee americano,Drink,40,72.27,36,2601.72,1161.7199999999998,False,False,False,29
+2026-01-22,3,7,Tea,Drink,20,30.94,38,1175.72,415.72,False,False,False,-13
+2026-01-22,3,8,Bun with poppy,Bakery,30,62.83,12,753.96,393.96,False,False,False,26
+2026-01-23,4,1,Borshch,Hot,55,91.93,5,459.65000000000003,184.65000000000003,False,True,False,-7
+2026-01-23,4,2,Pure with cutlet,Hot,70,141.29,14,1978.06,998.06,False,True,False,19
+2026-01-23,4,3,Grechka with chicken,Hot,65,116.7,13,1517.1000000000001,672.1,False,True,False,-14
+2026-01-23,4,4,Salad Olivye,Salad,45,74.83,7,523.81,208.81,False,True,False,23
+2026-01-23,4,5,Pizza slice,Bakery,80,131.13,9,1180.17,460.16999999999996,False,True,False,26
+2026-01-23,4,6,Coffee americano,Drink,40,66.17,27,1786.5900000000001,706.59,False,True,False,22
+2026-01-23,4,7,Tea,Drink,20,40.62,11,446.82,226.81999999999996,False,True,False,-5
+2026-01-23,4,8,Bun with poppy,Bakery,30,50.84,22,1118.48,458.4800000000001,False,True,False,-2
+2026-01-24,5,1,Borshch,Hot,55,67.53,8,540.24,100.24000000000001,True,True,False,-9
+2026-01-24,5,2,Pure with cutlet,Hot,70,96.68,12,1160.16,320.1600000000001,True,True,False,-13
+2026-01-24,5,3,Grechka with chicken,Hot,65,80.43,18,1447.7400000000002,277.7400000000001,True,True,False,9
+2026-01-24,5,4,Salad Olivye,Salad,45,57.96,9,521.64,116.64000000000001,True,True,False,25
+2026-01-24,5,5,Pizza slice,Bakery,80,109.86,19,2087.34,567.34,True,True,False,30
+2026-01-24,5,6,Coffee americano,Drink,40,55.94,1,55.94,15.939999999999998,True,True,False,3
+2026-01-24,5,7,Tea,Drink,20,29.2,4,116.8,36.8,True,True,False,9
+2026-01-24,5,8,Bun with poppy,Bakery,30,41.72,12,500.64,140.64,True,True,False,8
+2026-01-25,6,1,Borshch,Hot,55,77.06,10,770.6,220.60000000000002,True,True,False,29
+2026-01-25,6,2,Pure with cutlet,Hot,70,97.33,9,875.97,245.96999999999997,True,True,False,19
+2026-01-25,6,3,Grechka with chicken,Hot,65,87.01,7,609.07,154.07000000000005,True,True,False,2
+2026-01-25,6,4,Salad Olivye,Salad,45,56.96,23,1310.08,275.08000000000004,True,True,False,5
+2026-01-25,6,5,Pizza slice,Bakery,80,115.72,3,347.15999999999997,107.16,True,True,False,5
+2026-01-25,6,6,Coffee americano,Drink,40,48.79,13,634.27,114.26999999999998,True,True,False,21
+2026-01-25,6,7,Tea,Drink,20,27.93,10,279.3,79.3,True,True,False,10
+2026-01-25,6,8,Bun with poppy,Bakery,30,38.38,12,460.56000000000006,100.56000000000003,True,True,False,0
+2026-01-26,0,1,Borshch,Hot,55,111.26,25,2781.5,1406.5000000000002,False,True,False,12
+2026-01-26,0,2,Pure with cutlet,Hot,70,122.74,29,3559.46,1529.4599999999998,False,True,False,-7
+2026-01-26,0,3,Grechka with chicken,Hot,65,101.64,27,2744.28,989.28,False,True,False,-12
+2026-01-26,0,4,Salad Olivye,Salad,45,87.26,7,610.82,295.82000000000005,False,True,False,28
+2026-01-26,0,5,Pizza slice,Bakery,80,123.56,26,3212.56,1132.56,False,True,False,9
+2026-01-26,0,6,Coffee americano,Drink,40,74.82,30,2244.6,1044.6,False,True,False,20
+2026-01-26,0,7,Tea,Drink,20,40.09,11,440.99,220.99000000000004,False,True,False,28
+2026-01-26,0,8,Bun with poppy,Bakery,30,61.14,25,1528.5,778.5,False,True,False,6
+2026-01-27,1,1,Borshch,Hot,55,99.97,19,1899.43,854.43,False,True,False,1
+2026-01-27,1,2,Pure with cutlet,Hot,70,129.88,22,2857.3599999999997,1317.36,False,True,False,-9
+2026-01-27,1,3,Grechka with chicken,Hot,65,135.8,29,3938.2000000000003,2053.2000000000003,False,True,False,17
+2026-01-27,1,4,Salad Olivye,Salad,45,72.31,26,1880.06,710.0600000000001,False,True,False,-5
+2026-01-27,1,5,Pizza slice,Bakery,80,171.44,29,4971.76,2651.7599999999998,False,True,False,23
+2026-01-27,1,6,Coffee americano,Drink,40,60.55,20,1211.0,410.99999999999994,False,True,False,8
+2026-01-27,1,7,Tea,Drink,20,30.81,15,462.15,162.14999999999998,False,True,False,21
+2026-01-27,1,8,Bun with poppy,Bakery,30,60.37,5,301.84999999999997,151.85,False,True,False,-11
